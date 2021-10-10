@@ -1,7 +1,7 @@
-from src.parser import WebScrapper
+from src.parser import WebParser
 
 if __name__ == '__main__':
-    newWebScrapper = WebScrapper()
-    query = "cardano"
+    newWebParser = WebParser()
+    query = "Dogecoin"
     number_of_results = 10
     newWebScrapper.search_for_google(query, number_of_results)
