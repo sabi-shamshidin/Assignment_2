@@ -1,4 +1,4 @@
-from src.scrapper import WebScrapper
+from src.parser import WebScrapper
 
 if __name__ == '__main__':
     newWebScrapper = WebScrapper()
