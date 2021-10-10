@@ -26,7 +26,7 @@ from src.scrapper import WebScrapper
 
 if __name__ == '__main__':
     newScapper = WebScrapper()
-    data = newScapper.get_currency("BTC") #get exact coin with its symbol
+    data = newScapper.get_currency("Dogecoin") #get exact coin with its symbol
 
     print("Place: ", data[0])
     print("Name: ", data[1])
